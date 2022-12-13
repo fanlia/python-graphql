@@ -1,0 +1,12 @@
+{
+  "name": "source",
+  "version": "1.0.0",
+  "description": "",
+  "main": "ecosystem.config.js",
+  "scripts": {
+    "start": "source env/bin/activate && FLASK_ENV=development flask run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
