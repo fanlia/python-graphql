@@ -1,6 +1,6 @@
 module.exports = {
   apps : [{
-    name   : "keyframe-img2vec-api",
+    name   : "some-python-api",
     interpreter: "env/bin/python3",
     script : "./app.py",
     env: {
