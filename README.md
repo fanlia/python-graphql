@@ -6,6 +6,7 @@ python graphql
 ## dependencies
 
 ```sh
+cd source
 vim requirements.txt
 sh install-env.sh
 ```
@@ -13,6 +14,7 @@ sh install-env.sh
 ## develpment
 
 ```sh
+cd source
 npm start
 ```
 
@@ -23,5 +25,6 @@ sudo docker-compose up
 ## deploy
 
 ```sh
+cd source
 pm2 start ecosystem.config.js
 ```
