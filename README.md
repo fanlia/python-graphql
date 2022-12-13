@@ -3,6 +3,10 @@
 
 python graphql
 
+## requirements
+
+- python 3.4+
+
 ## dependencies
 
 ```sh
