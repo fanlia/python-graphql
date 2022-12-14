@@ -32,3 +32,9 @@ sudo docker-compose up
 cd source
 pm2 start ecosystem.config.js
 ```
+
+## cli
+
+```js
+node sources/cli/test.js
+```
