@@ -15,6 +15,12 @@ vim requirements.txt
 sh install-env.sh
 ```
 
+## local shell
+```sh
+cd source
+source env/bin/activate
+```
+
 ## develpment
 
 ```sh
