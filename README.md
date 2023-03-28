@@ -11,7 +11,6 @@ python graphql
 
 ```sh
 cd source
-vim requirements.txt
 sh install-env.sh
 ```
 
