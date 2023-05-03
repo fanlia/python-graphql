@@ -8,4 +8,4 @@ services:
     volumes:
       - ./source:/usr/src/app
     environment:
-      FLASK_DEDUB: true
+      FLASK_DEBUG: true
