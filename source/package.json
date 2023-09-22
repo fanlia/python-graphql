@@ -4,7 +4,7 @@
   "description": "",
   "main": "ecosystem.config.js",
   "scripts": {
-    "start": "source env/bin/activate && FLASK_ENV=development flask run"
+    "start": "source env/bin/activate && FLASK_DEBUG=true flask run"
   },
   "keywords": [],
   "author": "",
