@@ -18,6 +18,7 @@ app.add_url_rule(
     view_func=GraphQLView.as_view("graphql_view", schema=schema),
 )
 
+port = os.getenv('PORT', 5000)
+
 if __name__ == "__main__":
-    port = os.getenv('PORT', 5000)
     app.run(host='0.0.0.0', port=port)
