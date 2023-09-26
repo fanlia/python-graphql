@@ -1,10 +1,13 @@
+
+var pkg = require('./package.json')
+
 module.exports = {
   apps : [{
-    name   : "some-python-api",
+    name      : pkg.name,
     interpreter: "env/bin/python3",
-    script : "./app.py",
+    script : "./server.py",
     env: {
-        PORT: 5000,
+        PORT: 5001,
     },
   }]
 }
